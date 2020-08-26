@@ -5,7 +5,7 @@ export const Types = {
 export const getUserRequest = () => ({
     type: Types.GET_USER_REQUEST
 });
-export const get_users_success = ({ items }) => ({
+export const getUsersSuccess = ({ items }) => ({
     type: Types.GET_USER_SUCCESS,
     payload: {
         items

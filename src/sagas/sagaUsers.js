@@ -4,6 +4,7 @@ import * as api from '../api/userApi';
 function* getUsers() {
     try {
         const result = yield call(api.getUser);
+        console.log(result);
     }
     catch (err) {
         console.log(err)
